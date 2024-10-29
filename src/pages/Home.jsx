@@ -6,11 +6,9 @@ import ListMenu from '../components/template/ListMenu'
 const Home = () => {
   return (
     <div className='bg-slate-50'>
-        <div className='max-w-[900px] mx-auto'>
-            <Navbar />
-            <Hero />
-            <ListMenu />
-        </div>
+      <Navbar />
+      <Hero />
+      <ListMenu />
     </div>
   )
 }
