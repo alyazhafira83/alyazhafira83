@@ -31,7 +31,7 @@ const Login = () => {
         
         navigate("/");
       } else {
-        alert("Failed to register");
+        alert("Email atau password salah");
       }
 
     } catch (error) {

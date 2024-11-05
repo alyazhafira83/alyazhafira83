@@ -27,7 +27,6 @@ const Register = () => {
     }
 
     const response = await register(userData);
-
     if(response.status === 201){
       navigate("/login");
     } else {
